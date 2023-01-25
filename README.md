@@ -80,12 +80,13 @@ pandoc -F pandoc-crossref .\test.md -o .\test.pdf --pdf-engine=lualatex --templa
 Markdownを作成後は先頭に以下のような`YAML`データを記述します。
 ```yaml
 ---
-title: レポート名  # 題名
+title: レポート作成演習4  # 題名/講義名・科目名
+subtitle: レポート  # サブタイトル/レポート
 author:  # 作成者(複数人可, それぞれ省略可)
     - name: 田中　太郎  # 氏名
       id: XX21AXXX  # 学籍番号
-      email: xx21axxx@xxx.jp # 学校用アドレス等
-date: 2023年1月24日  # 提出日/作成日等といった日付
+      email: xx21axxx@xxx.jp # 連絡先用メールアドレス/学校用アドレス等
+date: 2023年1月24日  # 提出日
 figureTitle: "図"
 tableTitle: "表"
 listingTitle: "ソースコード"

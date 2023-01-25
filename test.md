@@ -1,5 +1,6 @@
 ---
-title: レポート名
+title: レポート作成演習4
+subtitle: レポート
 author:
     - name: 田中　太郎
       id: XX21AXXX
