@@ -1,0 +1,1 @@
+pandoc -F pandoc-crossref %1 -o %2 --pdf-engine=lualatex --template=./report.tex -N
